@@ -323,7 +323,7 @@ There is also some other terms for vocabularies.
 
     Special Tokens(``special_tokens``)
         * Most used special tokens are ``<pad>``, ``<unk>``, ``<go>``, ``<eos>``.
-        * Special tokens are counted as valid vocabularies.
+        * Special tokens are counted as frequent vocabularies.
 
     Unknown tokens (``<unk>``)
         * ``<unk>`` means "Out of Vocabularies", but the meaning of ``<unk>`` may varies from situations.
@@ -663,13 +663,13 @@ SessionBERT
     .. automethod:: get_batch
 
 DenseLabel
-#########################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. autoclass:: DenseLabel
 
     .. automethod:: get_batch
 
 SparseLabel
-#########################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. autoclass:: SparseLabel
 
     .. automethod:: get_batch

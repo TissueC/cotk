@@ -170,11 +170,12 @@ class SST(SentenceClassification):
 	'''
 
 	def __init__(self, file_id, min_frequent_vocab_times=10, \
-				 max_sent_length=50, min_rare_vocab_times=0, tokenizer='space', pretrained=None):
+				 max_sent_length=50, convert_to_lower_letter=False, \
+				 min_rare_vocab_times=0, tokenizer='space', pretrained=None):
 		super().__init__(file_id,
 						 tokenizer=tokenizer,
 						 max_sent_length=max_sent_length,
-						 convert_to_lower_letter=False,
+						 convert_to_lower_letter=convert_to_lower_letter,
 						 min_frequent_vocab_times=min_frequent_vocab_times,
 						 min_rare_vocab_times=min_rare_vocab_times,
 						 pretrained=pretrained)
