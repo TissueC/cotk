@@ -662,6 +662,9 @@ SessionBERT
 
     .. automethod:: get_batch
 
+Label
+#########################################
+
 DenseLabel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. autoclass:: DenseLabel
